@@ -1,13 +1,17 @@
+## How to use
+* `\documentclass[]{elegant}`
+* XeLaTeX, pdfLaTeX, LaTeX 编译均可
+
 ## What have done
 * 选项
-    * 默认的选项utf,withchinese,withisomath
-    * 通过utf, gbk来调整编码
-    * 通过dvips, dvipdfm, pdftex, xetex来调整代码适应
-    * 通过withchinese/withoutchinese来开关中文支持
-    * 通过withisomath/withoutisomath来开关iso数学支持
+    * 默认的选项`utf`,`withchinese`,`withisomath`
+    * 通过`utf`, `gbk`来调整编码
+    * 通过`dvips`, `dvipdfm`, `pdftex`, `xetex`来调整代码适应
+    * 通过`withchinese`/`withoutchinese`来开关中文支持
+    * 通过`withisomath`/`withoutisomath`来开关iso数学支持
 * 检测编译方式
 * 中文支持
-* 数学支持
+* iso数学支持
 * 交叉引用
 * 字号支持
 
@@ -23,3 +27,6 @@
 * 标题格式（option）
 * 目录格式（option）
 * 附录
+
+## History
+* 0.0.2 第一个测试版本发布。
